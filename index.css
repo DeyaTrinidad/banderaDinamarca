@@ -1,0 +1,31 @@
+.banderadin{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+width: 280px; 
+height: 150px;
+/*border: 2px solid red; paso previo solo para ordenar mejor*/
+grid-template-areas: "cuadrito1 cuadrito2 cuadrito2"
+                     "cuadrito3 cuadrito4 cuadrito4";
+gap: 25px;
+
+}
+.cuadrito {
+background-color: red;
+}
+.cuadrito1 {
+    grid-area: cuadrito1;
+}
+
+.cuadrito2 {
+    grid-area: cuadrito2;
+}
+
+.cuadrito3 {
+    grid-area: cuadrito3;
+}
+
+.cuadrito4 {
+    grid-area: cuadrito4;
+}
+
